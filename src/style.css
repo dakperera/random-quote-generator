@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    margin: 0;
+    overflow:hidden;
+
+    background-color: #0B2434; 
+    font-family: "Karla", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#quote-box{
+    background-color: white;
+    max-width: 35em;
+    max-height: 30em;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    align-content: flex;
+    
+}
+
+#text{
+    max-width:90%;
+    max-height: 70%;
+    text-align:center;
+    font-size:27px;
+    font-family:Arial;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#author{
+    max-width:50%;
+    text-align:end;
+    margin-bottom:1em;
+    font-size:18px;
+    margin-right: 20px;
+}
+
+#new-quote{
+    margin: 10px;
+    margin-right:20px;
+    color: white;
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.buttons{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#twitter{
+    margin: 10px;
+    color: white;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonsStyle{
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
